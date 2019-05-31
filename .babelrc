@@ -1,0 +1,33 @@
+{
+  "presets": [
+    [
+      "@babel/env",
+      {
+        "debug": true,
+        "targets": {
+          "node": "10.3.0"
+        }
+      }
+    ],
+    "@babel/typescript"
+  ],
+  "plugins": [
+    [
+      "module-resolver",
+      {
+        "root": [
+          "./src"
+        ],
+        "alias": {
+          "test": "./test"
+        },
+        "extensions": [".js", ".jsx", ".ts", ".tsx"]
+      }
+    ]
+  ],
+  "env": {
+    "test": {
+      "retainLines": true
+    }
+  }
+}

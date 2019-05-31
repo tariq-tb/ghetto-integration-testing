@@ -1,0 +1,30 @@
+# Build directories
+dist
+tmp
+coverage
+
+# Node
+node_modules
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.nvmrc
+
+# Jetbrains IDE
+.idea
+*.iml
+
+# Microsoft VSCode
+.vscode
+
+# Configuration
+.env
+.logger.json
+.awssqs.json
+
+# Mac OSX
+.DS_Store
+.AppleDouble
+.LSOverride
